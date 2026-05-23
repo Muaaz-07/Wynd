@@ -45,13 +45,17 @@ Ensure you have the following installed:
     git clone https://github.com/Muaaz-07/Wynd.git
     cd Wynd
     ```
+
+    
 2.  Add your OpenWeather API key inside [src/weather/WeatherAPI.h](src/weather/WeatherAPI.h) by updating:
     ```cpp
     QString apiKey = "YOUR_API_KEY_HERE";
 
     ```
 
-    Note: You can get your free OpenWeather API key by going to https://https://openweathermap.org/ and signing up.
+    Note: You can get your free OpenWeather API key by going to https://openweathermap.org/ and signing up.
+
+    
     
 4.  Configure and compile the project using CMake:
     ```
@@ -60,6 +64,8 @@ Ensure you have the following installed:
     cmake ..
     cmake --build . --config Release
     ```
+
+    
 5.  Launch the application:
     *   On Windows: `Release\Wynd.exe`
     *   On Linux/macOS: `./Wynd`
