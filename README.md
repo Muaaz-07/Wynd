@@ -70,3 +70,10 @@ Ensure you have the following installed:
     *   On Windows: `Release\Wynd.exe`
     *   On Linux/macOS: `./Wynd`
 
+
+---
+
+
+##📜License
+
+Wynd is Licensed under the [GNU General Public License v3.0](LICENSE). See the [LICENSE](LICENSE) file for the full GPLv3 terms.
