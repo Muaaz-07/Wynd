@@ -57,7 +57,7 @@ Ensure you have the following installed:
 
     
     
-4.  Configure and compile the project using CMake:
+3.  Configure and compile the project using CMake:
     ```
     mkdir build
     cd build
@@ -66,7 +66,7 @@ Ensure you have the following installed:
     ```
 
     
-5.  Launch the application:
+4.  Launch the application:
     *   On Windows: `Release\Wynd.exe`
     *   On Linux/macOS: `./Wynd`
 
