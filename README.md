@@ -58,7 +58,7 @@ Ensure you have the following installed:
     
     
 3.  Configure and compile the project using CMake:
-    ```
+    ```bash
     mkdir build
     cd build
     cmake ..
