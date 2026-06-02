@@ -2,19 +2,19 @@
 
 Wynd is a modern, C++ desktop weather dashboard application built using the **Qt 6** framework and compiled with **CMake**. 
 
-Designed for both functionality and aesthetic appeal, the application provides real-time current conditions, hourly timelines, and 5-day forecasts, alongside an automated location detection service and a customizable rule-based weather alert notification system that runs in the background.
+Designed for both functionality and aesthetic appeal, the application provides real-time conditions, hourly timelines, and 5-day forecasts, alongside an automated location detection service and a customizable rule-based weather alert notification system that runs in the background.
 
 ---
 
 ## 🌟 Key Features
 
-*   **Auto Location Detection:** Resolves active coordinates using Nominatim OpenStreetMap IP geocoding services.
+*   **Auto Location Detection:** Resolves active coordinates using IP-API.
     
-*   **Detailed Forecasts:** Real-time current conditions, hourly forecasts, and 5-day projections via OpenWeather API.
+*   **Detailed Forecasts:** Real-time current conditions, hourly forecasts, and 5-day projections via OpenWeatherMap API.
     
 *   **Background Monitoring:** Runs silently in the system tray, keeping your custom alerts active even when the window is hidden.
     
-*   **Custom Weather Alerts:** Setup custom rule-based reminders (e.g., "Alert me 3 hours before if the temperature falls below 5°C").
+*   **Custom Weather Alerts:** Setup custom rule-based reminders (e.g., "Alert me 3 hours before the temperature falls below 5°C").
    
 *   **Premium UI & Aesthetics:** Custom graphics painting, smooth opacity transitions, and dynamic Dark/Light theme toggling.
 
@@ -76,4 +76,4 @@ Ensure you have the following installed:
 
 ## 📜License
 
-Wynd is Licensed under the [GNU General Public License v3.0](LICENSE). See the [LICENSE](LICENSE) file for the full GPLv3 terms.
+Wynd is licensed under the [GNU General Public License v3.0](LICENSE). See the [LICENSE](LICENSE) file for the full GPLv3 terms.
