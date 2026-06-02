@@ -1,0 +1,490 @@
+/* Light theme used across the dashboard and forecast widgets. */
+QMainWindow {
+    background: #d6eef3;
+}
+
+QWidget#centralWidgetRoot {
+    background: #d6eef3;
+}
+
+QScrollArea[themeRole="dashboardScrollArea"] {
+    background: transparent;
+    border: none;
+}
+
+QScrollArea[themeRole="dashboardScrollArea"] > QWidget > QWidget {
+    background: transparent;
+}
+
+QWidget[themeRole="windowTitleBar"] {
+    background: #d6eef3;
+}
+
+QLabel[themeRole="windowTitleText"] {
+    color: #0b5874;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+QPushButton[themeRole="windowControlButton"] {
+    background: transparent;
+    color: #0b5874;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+QPushButton[themeRole="windowControlButton"]:hover {
+    background: rgba(20, 172, 200, 0.18);
+}
+
+QPushButton[themeRole="windowCloseButton"] {
+    background: transparent;
+    color: #b42318;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+QPushButton[themeRole="windowCloseButton"]:hover {
+    background: rgba(225, 29, 72, 0.18);
+    color: #ffffff;
+}
+
+QLabel {
+    color: #334155;
+    font-size: 14px;
+    background: transparent;
+}
+
+QLabel#backgroundLabel {
+    border-radius: 10px;
+    background: transparent;
+}
+
+QLabel#weatherIcon {
+    background: transparent;
+}
+
+QLabel[themeRole="appTitle"] {
+    color: #1e293b;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+QLabel[themeRole="cityLabel"] {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+QLabel[themeRole="cityDate"] {
+    color: #e9fcff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+QLabel[themeRole="temperatureLabel"] {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+QLabel[themeRole="conditionValue"] {
+    color: #1e293b;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 8px;
+}
+
+QLabel[themeRole="statCardTitle"] {
+    color: #64748b;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+QLabel[themeRole="statHeaderTitle"] {
+    color: #64748b;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+QLabel[themeRole="statValue"] {
+    color: #1e293b;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 8px;
+}
+
+QLabel[themeRole="statIcon"] {
+    color: #475569;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+QLabel[themeRole="statIcon"][iconKind="condition"] {
+    color: #2563eb;
+}
+
+QLabel[themeRole="statIcon"][iconKind="humidity"] {
+    color: #0891b2;
+}
+
+QLabel[themeRole="statIcon"][iconKind="wind"] {
+    color: #4f46e5;
+}
+
+QLabel[themeRole="statIcon"][iconKind="precipitation"] {
+    color: #e11d48;
+}
+
+QLabel[themeRole="sectionTitle"] {
+    color: #1e293b;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+QLabel[themeRole="sectionHint"] {
+    color: #64748b;
+    font-size: 13px;
+    padding-bottom: 4px;
+}
+
+QLabel[themeRole="hourlySectionTitle"] {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+QLineEdit[themeRole="searchField"] {
+    background: rgba(255, 255, 255, 0.95);
+    color: #153748;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 15px;
+    selection-background-color: #14acc8;
+}
+
+QLineEdit[themeRole="searchField"]::placeholder {
+    color: #88a2ab;
+}
+
+QPushButton {
+    font-weight: 700;
+}
+
+QPushButton[themeRole="primaryButton"] {
+    background: qlineargradient(
+        spread: pad,
+        x1: 0,
+        y1: 0,
+        x2: 1,
+        y2: 1,
+        stop: 0 #0a6986,
+        stop: 1 #18b6c8
+    );
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 14px;
+}
+
+QPushButton[themeRole="primaryButton"]:hover {
+    background: #159eb9;
+}
+
+QPushButton[themeRole="iconButton"] {
+    background: transparent;
+    color: #0b5874;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+QPushButton[themeRole="backButton"] {
+background: qlineargradient(
+        spread: pad,
+        x1: 0,
+        y1: 0,
+        x2: 1,
+        y2: 1,
+        stop: 0 #0a6986,
+        stop: 1 #18b6c8
+    );
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: 900;
+    padding-bottom:5px;
+}
+
+QPushButton[themeRole="backButton"]:hover {
+    background: #16a6bf;
+}
+
+QWidget[themeRole="heroCard"] {
+    background: qlineargradient(
+        spread: pad,
+        x1: 0,
+        y1: 0,
+        x2: 1,
+        y2: 1,
+        stop: 0 #0a5f7c,
+        stop: 0.52 #0f94b0,
+        stop: 1 #1ac9d4
+    );
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 0px;
+}
+
+QWidget[themeRole="statCard"] {
+    background: #ffffff;
+    border: 1px solid #EEE6D7;
+    border-radius: 15px;
+}
+
+QWidget[themeRole="favoriteCitiesPanel"],
+QWidget[themeRole="favoriteCitiesPillArea"],
+QScrollArea[themeRole="favoriteCitiesScrollArea"] {
+    background: transparent;
+}
+
+QWidget[themeRole="hourlyCard"] {
+    background: qlineargradient(
+        spread: pad,
+        x1: 0,
+        y1: 0,
+        x2: 1,
+        y2: 1,
+        stop: 0 #0a5f7c,
+        stop: 0.52 #0f94b0,
+        stop: 1 #1ac9d4
+    );
+    border-radius: 20px;
+}
+
+QWidget[themeRole="hourlyRow"] {
+    background: transparent;
+    border-bottom: 1px solid rgba(233, 252, 255, 0.28);
+}
+
+QLabel[themeRole="hourlyTime"] {
+    color: #d9f8fd;
+    font-size: 14px;
+    border: none;
+}
+
+QLabel[themeRole="hourlyIcon"] {
+    color: #ffffff;
+    font-size: 14px;
+    background: transparent;
+    border: none;
+}
+
+QLabel[themeRole="hourlyTemp"] {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+QWidget[themeRole="forecastCard"] {
+    background: #ffffff;
+    color: #334155;
+    border: 1px solid #EEE6D7;
+    border-radius: 24px;
+    padding: 10px;
+}
+
+QLabel[themeRole="forecastDay"] {
+    color: #1e293b;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+QLabel[themeRole="forecastIcon"] {
+    color: #334155;
+    background: transparent;
+    border: none;
+}
+
+QLabel[themeRole="forecastTemp"],
+QLabel[themeRole="forecastHumidity"] {
+    color: #64748b;
+    font-size: 14px;
+    border: none;
+    padding: 10px;
+}
+
+QDialog[themeRole="settingsDialog"],
+QWidget[themeRole="settingsDialog"] {
+    background: qlineargradient(
+            x1:0, y1:0, x2:1, y2:1,
+            stop:0 #bfd6de,
+            stop:1 #c7e3ea
+        );
+}
+
+QScrollArea[themeRole="settingsScrollArea"] {
+    background: transparent;
+    border: none;
+}
+
+QScrollArea[themeRole="settingsScrollArea"] > QWidget > QWidget {
+    background: transparent;
+}
+
+QWidget[themeRole="settingsCard"] {
+    background: #e6f7fa;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+}
+
+QLabel[themeRole="settingsTitle"] {
+    color: #1e293b;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+QLabel[themeRole="settingsSectionTitle"] {
+    color: #1e293b;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+QLabel[themeRole="settingsHint"] {
+    color: #64748b;
+    font-size: 13px;
+}
+
+QListWidget[themeRole="settingsList"] {
+    background: #eafbff;
+    color: #153748;
+    border: 1px solid #dbe4ec;
+    border-radius: 14px;
+    padding: 6px;
+}
+
+QListWidget[themeRole="settingsList"]::item {
+    color: #153748;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 4px 0;
+}
+
+QListWidget[themeRole="settingsList"]::item:selected {
+    background: #14acc8;
+    color: #ffffff;
+}
+
+QLineEdit[themeRole="settingsField"],
+QComboBox[themeRole="settingsField"],
+QDoubleSpinBox[themeRole="settingsField"] {
+    background: #eafbff;
+    color: #153748;
+    border: 1px solid #dbe4ec;
+    border-radius: 12px;
+    padding: 8px 12px;
+}
+
+QLineEdit[themeRole="settingsField"]:disabled,
+QComboBox[themeRole="settingsField"]:disabled,
+QDoubleSpinBox[themeRole="settingsField"]:disabled {
+    color: #94a3b8;
+    background: #eef5f8;
+}
+
+QComboBox[themeRole="settingsField"]::drop-down {
+    border: none;
+    width: 24px;
+}
+
+QComboBox[themeRole="settingsField"] QAbstractItemView {
+    background: #eafbff;
+    color: #153748;
+    selection-background-color: #14acc8;
+}
+
+QCheckBox[themeRole="settingsToggle"] {
+    color: #334155;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+QPushButton[themeRole="secondaryButton"] {
+    background: #ffffff;
+    color: #0b5874;
+    border: 1px solid #dbe4ec;
+    border-radius: 15px;
+    padding: 8px 14px;
+}
+
+QPushButton[themeRole="secondaryButton"]:hover {
+    border-color: #14acc8;
+    color: #16a6bf;
+}
+
+QPushButton[themeRole="favoriteCityPill"] {
+    background: rgba(255, 255, 255, 0.98);
+    color: #0b5874;
+    border: 1px solid #dbe4ec;
+    border-radius: 18px;
+    padding: 9px 16px;
+}
+
+QPushButton[themeRole="favoriteCityPill"]:hover {
+    background: #f2fbfd;
+    border-color: #7dd3fc;
+}
+
+QPushButton[themeRole="favoriteCityPill"]:checked {
+    background: qlineargradient(
+        spread: pad,
+        x1: 0,
+        y1: 0,
+        x2: 1,
+        y2: 1,
+        stop: 0 #0a6986,
+        stop: 1 #18b6c8
+    );
+    color: #ffffff;
+    border-color: rgba(24, 182, 200, 0.16);
+}
+
+QPushButton[themeRole="dangerButton"] {
+     background: qlineargradient(
+            x1:0, y1:0, x2:1, y2:1,
+            stop:0 #4B0F1A,
+            stop:1 #8C2F39
+        );
+    color: #fecdd3;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 14px;
+}
+
+QPushButton[themeRole="dangerButton"]:hover {
+    background: #4B0F1A;
+}
+
+
+
+QStatusBar {
+    background: #eafbff;
+    color: #475569;
+    border-top: 1px solid #dbe4ec;
+}
