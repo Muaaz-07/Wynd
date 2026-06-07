@@ -25,8 +25,6 @@ qt_add_executable(Wynd WIN32
     src/ui/MainWindow.h
     src/ui/SettingsDialog.cpp
     src/ui/SettingsDialog.h
-    src/layouts/FlowLayout.cpp
-    src/layouts/FlowLayout.h
     src/weather/WeatherAPI.cpp
     src/weather/WeatherAPI.h
     src/location/locationService.cpp
