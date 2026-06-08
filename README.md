@@ -27,6 +27,14 @@ Wynd combines real-time weather monitoring with a polished desktop experience, o
 
 ---
 
+## 📸 Screenshots
+
+| Light Theme | Dark Theme |
+| :---: | :---: |
+| ![Light Theme](assets/screenshots/light.png) | ![Dark Theme](assets/screenshots/dark.png) |
+
+---
+
 ## 🛠 Technology Stack
 
 | Component | Technology |
